@@ -32,9 +32,9 @@ body {
 .logo {
     max-width: 50%;
     height: auto;
-    padding: 10px;
+    padding: 5px;
     box-sizing: border-box;
-    background: linear-gradient(to top, transparent, green);
+    background: linear-gradient(to top, transparent, white);
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
 }
@@ -49,20 +49,34 @@ body {
     animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
+.social-icon {
+    font-size: 32px;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.right-container p {
+    text-align: justify;
+}
+
 @keyframes typing {
     from {
         width: 0;
     }
+
     to {
-        width: 50%;
+        width: 100%;
     }
 }
 
 @keyframes blink-caret {
+
     from,
     to {
         border-color: transparent;
     }
+
     50% {
         border-color: green;
     }
@@ -72,6 +86,7 @@ body {
     .container {
         flex-direction: column;
     }
+
     .left-container,
     .right-container {
         width: 100%;
