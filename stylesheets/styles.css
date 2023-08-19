@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+}
+
+.left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container {
+    flex: 1;
+}
+
+.logo {
+    max-width: 50%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(to top, transparent, green);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+}
+
+.logo-title {
+    margin-top: 20px;
+    color: green;
+    overflow: hidden;
+    border-right: 0.15em solid green;
+    white-space: nowrap;
+    letter-spacing: 0.15em;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: green;
+    }
+}
