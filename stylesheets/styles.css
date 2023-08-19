@@ -67,3 +67,13 @@ body {
         border-color: green;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left-container,
+    .right-container {
+        width: 100%;
+    }
+}
