@@ -4,120 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Webpage</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color: white;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-between;
-            height: 100vh;
-        }
-
-        .left-content {
-            flex: 1;
-            padding: 50px;
-        }
-
-        .right-content {
-            flex: 1;
-            padding: 50px;
-            background-color: #333;
-        }
-
-        .logo {
-            max-width: 50%;
-            height: auto;
-            margin-bottom: 10px;
-        }
-
-        .company-name {
-            font-size: 1.2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <title>Two Containers Layout</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="left-content">
-            <img class="logo" src="images/logo.png" alt="Nerium Byte Ltd Logo">
-            <p class="company-name">Nerium Byte Ltd</p>
+        <div class="left-container">
+            <img class="logo" src="images/logo.png" alt="Logo">
+            <h1 class="logo-title">&lt;Nerium Byte Ltd/&gt;</h1>
         </div>
-        <div class="right-content">
-            <h1>About Us</h1>
-            <p>
-                We are a trailblazer in AI Tech consultancy and {research} software development. With a deep passion for
-                AI's potential, we fuse expertise and innovation to propel businesses forward. Our bespoke consultancy
-                empowers clients to harness AI's power effectively, while our tailored software tackles
-                industry-specific challenges. Pioneering progress is our ethos; we stay on the cutting edge through
-                relentless R&D, covering machine learning, computer vision, natural language processing, and more. Join
-                us in shaping a future driven by AI's transformative possibilities.
-            </p>
-            <h1>Services</h1>
-            <ul>
-                <li>
-                    <h2>Bespoke Scientific Software:</h2>
-                    <ul>
-                        <li>Tailored solutions for precise research and data analysis.</li>
-                        <li>Custom apps to streamline processes and enhance accuracy.</li>
-                        <li>Advanced algorithms for data interpretation.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>AI Deployment & Integration:</h2>
-                    <ul>
-                        <li>Expert AI across industries for smarter decision-making.</li>
-                        <li>Seamless integration of machine learning for automation.</li>
-                        <li>Predictive analytics for accurate forecasting.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Consultancy Services:</h2>
-                    <ul>
-                        <li>AI guidance to align tech with business goals.</li>
-                        <li>Assessments leading to AI adoption plans.</li>
-                        <li>Process optimization and cost reduction.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Cutting-Edge R&D:</h2>
-                    <ul>
-                        <li>Innovation with AI and emerging tech.</li>
-                        <li>Industry-specific AI models.</li>
-                        <li>Solutions for complex challenges.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>NLP Expertise:</h2>
-                    <ul>
-                        <li>Insight from text data.</li>
-                        <li>Chatbots for engagement.</li>
-                        <li>Sentiment analysis and more.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Computer Vision Solutions:</h2>
-                    <ul>
-                        <li>Image analysis for automation.</li>
-                        <li>Object detection and tracking.</li>
-                        <li>Visual insights for decisions.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Long-Term Support:</h2>
-                    <ul>
-                        <li>Ongoing system support.</li>
-                        <li>Adaptation to changing needs.</li>
-                        <li>Swift issue resolution.</li>
-                    </ul>
-                </li>
-            </ul>
+        <div class="right-container">
+            <div>
+                <h2 class="typewriter">About Us</h2>
+                <p>We are a trailblazer in AI tech consultancy and research software development. With a deep passion
+                    for AI's potential, we fuse expertise and innovation to propel groups forward. Our bespoke
+                    consultancy empowers clients to harness AI's power effectively, while our tailored software tackles
+                    industry-specific challenges. Pioneering progress is our ethos; we stay on the cutting edge through
+                    relentless R&D, covering machine learning, computer vision, natural language processing, and more.
+                    Join us in shaping a future driven by AI's transformative possibilities.</p>
+            </div>
+            <div>
+                <h2>Services</h2>
+                <p><strong>Bespoke Scientific Software</strong></p>
+                <ul>
+                    <li>Tailored solutions for precise research and data analysis.</li>
+                    <li>Custom apps to streamline processes and enhance accuracy.</li>
+                    <li>Advanced algorithms for data interpretation.</li>
+                </ul>
+                <p><strong>AI Deployment & Integration</strong></p>
+                <ul>
+                    <li>Expert AI across industries and domains for smarter decision-making.</li>
+                    <li>Seamless integration of machine learning for automation.</li>
+                    <li>Predictive analytics for accurate forecasting.</li>
+                </ul>
+                <p><strong>Consultancy Services</strong></p>
+                <ul>
+                    <li>AI guidance to align tech with project goals.</li>
+                    <li>NLP expertise and computer vision solutions leading to adoption plans.</li>
+                    <li>Process optimisation and cost reduction.</li>
+                </ul>
+                <p><strong>Long-Term Support</strong></p>
+                <ul>
+                    <li>Ongoing system support.</li>
+                    <li>Adaptation to changing needs.</li>
+                    <li>Swift issue resolution.</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
