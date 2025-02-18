@@ -35,8 +35,8 @@ body {
     padding: 5px;
     box-sizing: border-box;
     background: linear-gradient(to top, transparent, white);
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.75);
 }
 
 .logo-title {
